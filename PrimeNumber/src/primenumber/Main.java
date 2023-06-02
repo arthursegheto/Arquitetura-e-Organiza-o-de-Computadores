@@ -48,8 +48,6 @@ public class Main {
             JOptionPane.showMessageDialog(null, "Você deve selecionar uma pasta para o processamento",
                     "Selecione o arquivo", JOptionPane.WARNING_MESSAGE);
         } else {
-            //...Modifique a partir daqui
-            //AQUI você deve explorar a pasta, arquivos e subpastas...
 
             // Armazena os arquivos de texto encontrados em um ArrayList
             ArrayList<File> arquivosTexto = new ArrayList<>();
